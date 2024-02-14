@@ -33,7 +33,14 @@ const User = () => {
         <section>
             <h1>Welcome, {firstName}</h1> {/* Render the username from the authentication context */}
             <form onSubmit={handleSubmit}>
-                <label htmlFor="firstName">First Name:</label>
+                <label htmlFor="userName">First Name:</label>
+                <input
+                    type="text"
+                    id="userName"
+                    value={auth.username}
+                    onChange={(e) => setFirstName(e.target.value)}
+                />
+                <label htmlFor="firstName">Username:</label>
                 <input
                     type="text"
                     id="firstName"
