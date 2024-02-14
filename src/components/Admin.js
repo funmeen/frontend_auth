@@ -1,7 +1,11 @@
 import React from 'react';
 
-const Admin = () => {
-    return <div>Welcome, Admin!</div>;
+const User = () => {
+    return (
+        <section>
+                <h1>Welcome to the Admin Page</h1>
+        </section>
+    );
 }
 
-export default Admin;
+export default User;
