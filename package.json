@@ -2,6 +2,7 @@
   "name": "b-frontend",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
