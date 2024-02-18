@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'http://18.141.41.29:4000/api/user'
+    baseURL: 'https://ec2-18-141-41-29.ap-southeast-1.compute.amazonaws.com/api/user'
 });
