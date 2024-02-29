@@ -24,7 +24,7 @@ const UserDetail = () => {
     <section>
       {userData ? (
         <>
-          <p>Name: {userData.firstName}</p>
+          <p>Name: {userData.firstName} {userData.middleName} {userData.lastName}</p>
           <p>Age: {userData.age}</p>
           {/* You can display other user details here */}
         </>
