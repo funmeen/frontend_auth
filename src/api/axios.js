@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'https://public-grapes-sin.loca.lt/'
+    baseURL: 'https://small-badgers-sell.loca.lt/'
 });
